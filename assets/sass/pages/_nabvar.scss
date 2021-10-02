@@ -1,0 +1,82 @@
+.navbar {
+  /* width: 100%; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.navbar__list {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 2rem 1rem;
+
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  width: 35%;
+  right: 0px;
+  transform: translateX(100%);
+  transition: transform 0.5s;
+}
+.navbar__item {
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.navbar__item--toggler {
+  text-decoration: none;
+  width: 10%;
+}
+.navbar__toggler {
+  color: white;
+}
+
+.navbar__icon{
+  color:$white; 
+  font-size:28px;
+
+  &:hover{
+    color:$orange;
+  }
+
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .navbar__list {
+  transform: translateX(0%);
+}
+
+.navbar__res_menu {
+}
+
+.navbar__logo {
+  width: 100%;
+  max-width: 40px;
+}
+
+@media (min-width: $breakpoint-md) {
+  .navbar__toggler {
+    display: none;
+  }
+  .navbar__list {
+    height: auto;
+    width: auto;
+    transform: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+}

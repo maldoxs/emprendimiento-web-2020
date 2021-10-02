@@ -1,0 +1,41 @@
+//Color Scheme
+$white:#FFFFFF;
+$black:#000000;
+$sable:#060606;
+$charcoal:#2e1503;
+$tangerine:#ffaf6d;
+$orange:#ffa500;
+$colorLista:#9c27b0;
+
+
+// Font Sizes
+$xxxxx-large: 50px;
+$xxxx-large:45px;
+$xxx-large:40px;
+$xx-large:35px;
+$x-large:30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small:12px;
+
+
+//Typography
+// $ubuntu-a:'Ubuntu', sans-serif;
+$ubuntu:'Ubuntu', sans-serif;
+$poppins:'Poppins', sans-serif;
+$font-regular: 400;
+$font-medio: 600;
+$font-black: 900;
+
+$breakpoints: (
+  'small': (min-width: 576px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 992px),
+  'extra-large': (min-width: 1200px),
+);
+
+$breakpoint-sm:576px;
+$breakpoint-md:768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

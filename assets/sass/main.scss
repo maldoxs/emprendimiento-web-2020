@@ -1,0 +1,23 @@
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//vendors
+
+//base
+@import'base/reset';
+@import'base/typography';
+@import 'base/icons';
+@import 'base/animation';
+
+//layout
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/footer';
+
+//components
+@import 'components/gallery-card';
+//pages
+@import'pages/nabvar';
+@import'pages/main';
+//themes

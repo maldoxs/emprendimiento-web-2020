@@ -1,0 +1,79 @@
+.content {
+    margin: auto;
+    width: 95%;
+    // @include respond-to('medium'){
+    //   width: 80%;
+    // }
+}
+
+.news {
+    border: 1px solid #000;
+    margin: 18px;
+}
+
+.news__post {
+    padding: 18px;
+}
+
+.news__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    h2 {
+        margin-bottom: 3px;
+        font-family: $poppins;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+
+        li {
+            margin: 5px
+        }
+    }
+    p{
+    color: #000000;
+    font-weight: normal !important;
+    margin-top: 0px;
+    line-height: 20px;
+    font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        color: $white;
+        background-color: $charcoal;
+    }
+}
+
+.news__list {
+    ul {
+        margin-left: -18px;
+
+        li {
+            color: $colorLista;
+        }
+    }
+}
+.news__svg{
+    width: 150px;
+    margin: 60px auto;
+}
+
+.news__image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    img {
+        width: 32%;
+        border-radius: 50%;
+        border: 1px solid $black;
+    }
+}

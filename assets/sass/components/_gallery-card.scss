@@ -14,19 +14,19 @@
   }
 
   &__textoA {
-    color: $black;
+    color:$black;
     font-family: $ubuntu;
-    font-weight: normal;
+    font-weight: $font-black;
     margin-top: 0px;
   }
 
   &__textoB {
-    color: #000000;
-
-    font-weight: normal !important;
+    color: $black;
+    font-weight: normal ;
     margin-top: 0px;
-    line-height: 20px;
-    font-size: $small;
+    line-height: 25px;
+    font-size: $x-small;
+    font-family: $ubuntu;
   }
 
   &__textoC {

@@ -41,14 +41,18 @@
     color: #000000;
     font-weight: normal !important;
     margin-top: 0px;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: $x-small;
+    font-family: $ubuntu;
     }
 
     button {
         width: 100%;
         color: $white;
         background-color: $charcoal;
+        font-family: 'Poppins';
+        font-weight: 900;
+        
     }
 }
 
